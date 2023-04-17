@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "menu-drawer",
-    "slug": "menu-drawer",
+    "name": "chat-gpt-app",
+    "slug": "chat-gpt-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.williantsi.chatgptapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e37bbc06-9e9c-4170-98d3-3602eb3d5a94"
+      }
     }
   }
 }
