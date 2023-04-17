@@ -1,3 +1,4 @@
+#ChatGPT com menu e configuração para api key
 #Dependências
 yarn add @react-navigation/drawer
 npx expo install react-native-screens react-native-safe-area-context
